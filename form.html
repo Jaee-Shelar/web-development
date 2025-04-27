@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="container">
+    <h2>Complete User Information Form</h2>
+
+        <div class="basic-info">
+        <label for="name" >Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email" required>
+        <br><br>
+        </div>
+ 
+
+        <div class="info">
+        Phone:  <input type="number" placeholder="Enter Number" required><br><br>
+           Password: <input type="password" placeholder="Enter Password" required ><br><br>
+        </div>
+
+       <div class="country">
+        <label for="country">Select Your Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+    </div>
+
+        <div class="gender">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+    </div>
+
+       <div class="depart">
+        <h3>Select Only One Option:</h3>
+        Department:
+        <input type="checkbox"  required>CSE 
+        <input type="checkbox" required>AIML 
+        <input type="checkbox" required>DS
+        <input type="checkbox" required>Mechanical
+        <input type="checkbox" required>Electrical 
+        <input type="checkbox" required>Electronic
+        <input type="checkbox" required>Chemical
+        <input type="checkbox" required>Architecture
+        <input type="checkbox" required>Civil
+    </div>
+
+
+
+        <div class="oe">
+         <h4>Note: There are Multiple courses are provided. Please choose one course amongst other</h4>
+        <label for="options">Open Elective Courses(OE):</label>
+                <select id="options" name="options">
+                    <option value="option1">Basics of data science</option>
+                    <option value="option2">Basics of AIML </option>
+                    <option value="option3">Human Resource And Management</option>
+                    <option value="option4">Disastaer management</option>
+                    <option value="option4">Residential Gardening</option>
+                    <option value="option4">Role of interior design</option>
+                    <option value="option4">Electical Vehicle</option>
+
+                </select>
+                <br><br>
+            </div>
+
+        <div class="interest">
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+
+        <input type="checkbox" id="travel" name="interests" value="travel">
+        <label for="travel">Travel</label><br>
+
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        
+        <input type="reset" value="Reset">
+    </div>
+    </form>
+</div>
+</body>
+</html>

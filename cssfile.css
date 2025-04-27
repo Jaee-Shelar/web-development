@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 200px;;
+}
+
+.box1{
+background-color: rgb(242, 59, 196);
+height: 100px;
+width: 80px;
+padding: 20px;
+
+}
+.box2{
+background-color: rgb(18, 188, 52);
+height: 100px;
+width: 80px;
+padding: 20px;
+
+}
+.box3{
+background-color: cornflowerblue;
+height: 100px;
+width: 80px;
+padding: 20px;
+
+}
+
+/* Combinations */
+
+div,p{
+background-color: blue;
+}
+
+
+div + p {
+    background-color: gold;
+    border: 1px solid gray;
+  }
+
+div > p {
+    background-color: rgb(139, 210, 230);
+    border: 5px solid rgb(191, 19, 165);
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  p ~ ul {
+    text-align: center;
+    background-color: rgb(218, 84, 222);
+    border: 1px solid gray;
+  }
