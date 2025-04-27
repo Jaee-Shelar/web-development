@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+
+<Employees>
+    <Employee>
+        <Name position="Manager">Rahul Sharma</Name>
+        <ID>EMP001</ID>
+        <Expertise>Software Development</Expertise>
+        <Experience>5 years</Experience>
+        <Role>Team Lead</Role>
+        <Salary>₹1,200,000</Salary>
+    </Employee>
+    <Employee>
+        <Name>Anjali Verma</Name>
+        <ID>EMP002</ID>
+        <Expertise>UI/UX Design</Expertise>
+        <Experience>3 years</Experience>
+        <Role>Senior Designer</Role>
+        <Salary>₹900,000</Salary>
+    </Employee>
+    <Employee>
+        <Name>Aman</Name>
+        <ID>EMP003</ID>
+        <Expertise>Backend Development</Expertise>
+        <Experience>4 years</Experience>
+        <Role>Backend Engineer</Role>
+        <Salary>₹1,000,000</Salary>
+    </Employee>
+    <Employee>
+        <Name>Tina</Name>
+        <ID>EMP004</ID>
+        <Expertise>Data Analysis</Expertise>
+        <Experience>2 years</Experience>
+        <Role>Data Analyst</Role>
+        <Salary>₹750,000</Salary>
+    </Employee>
+</Employees>

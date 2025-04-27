@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Movieshop [
+    <!ELEMENT Movieshop (movie+)>
+    <!ELEMENT movie (title, year, actor)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    
+    <!ATTLIST movie genre CDATA #IMPLIED>
+]>
+<Movieshop>
+    <movie genre = "SCI-FI">
+        <title>Interstellar</title>
+        <year>2014</year>
+        <actor>Cillian Murphy</actor>
+    </movie>
+</Movieshop>

@@ -1,0 +1,43 @@
+students{
+    display:block;
+    margin:25px;
+    padding: 20px;
+    display: grid;
+}
+student{
+    background-color: rgb(201, 201, 241);
+    margin:25px;
+    padding: 20;
+    display: flex;
+
+}
+name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300;
+    font-weight: bolder;
+    color: black;
+    display:block;
+    
+}
+age{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    display:block;
+
+}
+course{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    color:black;
+    display:block;
+
+}
+hobbies{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color:black;
+    display:block;
+}

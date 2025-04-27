@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl" ?>
+<?xml-stylesheet type="text/css" href="students.css" ?>
+<students>
+    <student>
+        <name>Anushka Patil</name>
+        <age>21</age>
+        <course>Computer Engineering</course>
+        <hobbies>Makeup</hobbies>
+    </student>
+    <student>
+        <name>Jaee</name>
+        <age>22</age>
+        <course>Computer Science</course>
+        <hobbies>Painting</hobbies>
+
+    </student>
+    <student>
+        <name>Samiksha</name>
+        <age>22</age>
+        <course>Computer Science</course>
+        <hobbies>Photography</hobbies>
+
+    </student>
+    <student>
+        <name>Prajkta</name>
+        <age>20</age>
+        <course>Computer Science</course>
+        <hobbies>Chess</hobbies>
+
+    </student>
+</students>

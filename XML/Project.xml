@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="project.css"?>
+
+<Members>
+    <member>
+        <name pass="lead">Jaee Shelar</name>
+        <roll_no>Roll no:21</roll_no>
+        <expertise>VR</expertise>
+        <CGPA>8.72</CGPA>
+        <Role>Leader</Role>
+    </member>
+    <member>
+        <name>Diksha Sambarekar</name>
+        <roll_no>Roll no:33</roll_no>
+        <Area_of_experties>Frontend</Area_of_experties>
+        <CGPA>7.80</CGPA>
+        <Role>Project co-ordinator</Role>
+
+    </member>
+    <member>
+        <name>Prajakta kadam</name>
+        <roll_no>Roll no:48</roll_no>
+        <Area_of_experties>Backend</Area_of_experties>
+        <CGPA>8.1</CGPA>
+        <Role>Backend developer</Role>
+
+
+    </member>
+    <member>
+        <name>Neha Dalal</name>
+        <roll_no>Roll no:40</roll_no>
+        <Area_of_experties>Communication</Area_of_experties>
+        <CGPA>7.6</CGPA>
+        <Role>Data anaysis</Role>
+
+
+    </member>
+</Members>
